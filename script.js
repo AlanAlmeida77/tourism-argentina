@@ -15,6 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
             nombre: "Cataratas del Iguazú, Misiones",
             descripcion: "Este sistema de cascadas en el Parque Nacional Iguazú es uno de los destinos naturales más impresionantes del mundo."
         },
+        {
+            imagen: "https://media.viajando.travel/p/9c4db2f52df2236c468502dfe3ec0222/adjuntos/255/imagenes/000/391/0000391096/1200x675/smart/salta-salinas-grandes-poligonosjpg.jpg",
+            nombre: "Salinas Grandes, Jujuy y Salta",
+            descripcion: "Un vasto salar en el noroeste de Argentina, conocido por su paisaje blanco y desolado que se extiende hasta donde alcanza la vista."
+        },
+        {
+            imagen: "https://media.lacapital.com.ar/p/6f976f878755c962d8125543ecfa737e/adjuntos/203/imagenes/005/062/0005062955/1200x675/smart/04-26-tur101jpg.jpg",
+            nombre: "Quebrada de Humauaca",
+            descripcion: "Esta impresionante garganta es un sitio del Patrimonio Mundial de la UNESCO, famosa por sus coloridos cerros y formaciones geológicas."
+        },
         // Agrega más objetos para más paisajes
     ];
 
