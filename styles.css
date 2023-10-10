@@ -2,12 +2,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Fondo suave */
+    background-color: #ececec; 
     font-family: Arial, sans-serif;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 875px;
     margin: 0 auto;
 }
 
@@ -19,13 +19,11 @@ body {
 }
 
 .navbar-brand {
-    color: #fff; /* Texto blanco */
-    font-size: 2rem; /* Aumento del tamaño del texto */
+    color: #fff; 
+    font-size: 2rem; 
 }
 
-
 .subtitle {
-    
     color: #333;
     text-align: center;
     margin-top: 20px;
@@ -33,31 +31,34 @@ body {
 }
 
 .containerCarroussel{
+
     width: 100%;
     height: 60%;
 }
 
 .card {
-    width: 100%;
+    background-color: #f0ece2;
+    width: 80%;
     height: 60%;
     border: none;
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
     position: relative;
+    align-items: center;
 }
 
+.card-img {
+    align-items: center;
+    width: 100%;
+}
 
 .card-title {
     font-size: 1.5rem;
     color: #fff;
-    position: absolute;
-    bottom: 10px; 
-    left: 10px;
-    right: 10px;
+    align-items: center;
     z-index: 2;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    top: 10px;
     font-family: 'Arial', sans-serif;
 }
 
@@ -84,6 +85,24 @@ body {
 .card:hover .card-text {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bx-wrapper{
+    align-items: center;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.bx-viewport {
+    left: 55px;
+}
+
+/* Estilos para centrar las imágenes */
+.center-image {
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* Media Query para pantallas más pequeñas */

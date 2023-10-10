@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             nombre: "Quebrada de Humauaca",
             descripcion: "Esta impresionante garganta es un sitio del Patrimonio Mundial de la UNESCO, famosa por sus coloridos cerros y formaciones geológicas."
         },
-        // Agrega más objetos para más paisajes
+        // Puedes agregar más objetos para más paisajes aquí
     ];
 
     const carroussel = document.querySelector(".carroussel");
@@ -34,17 +34,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const li = document.createElement("li");
         li.innerHTML = `
             <div class="card">
-                <img src="${paisaje.imagen}" alt="${paisaje.nombre}">
+                <div class="card-img">
+                    <img src="${paisaje.imagen}" alt="${paisaje.nombre}" class="center-image">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">${paisaje.nombre}</h5>
                     <p class="card-text">${paisaje.descripcion}</p>
                 </div>
             </div>
         `;
-
-        // Establece un estilo específico para la imagen
-        const imagen = li.querySelector("img");
-        imagen.style.height = "100%";
 
         carroussel.appendChild(li);
     });
